@@ -1,0 +1,31 @@
+Sonar qube: Used for static code analysis 
+Default port : 9000
+
+install jenins and sonar qube and sonar qube scanner on the same server
+
+Setting up quality gates -
+
+1 goto sonarqube dashboard
+2. Adding conditions/rules such as blocker issues,critical issues, major issues or complexities and provide a threshold value to be met, code coverage to be greater than 80%.
+
+Recommended quality gates : 
+Code covarage on new code
+Duplicated code
+
+If the conditions doesn't meet, then the quality gates fails.
+
+Separated quality gates can be created for separated projects.
+
+HTTPS  : 443
+HTTP   : 80
+FTP    : 21
+RDP    : 3389
+SSH    : 22
+TELNET : 23
+SMTP   : 25
+DNS    : 53
+LDAP   : 389
+MYSQL  : 3306
+TOMCAT : 8080 --> SERVER.XML : Connector Port=8080
+JBOSS  : 8080
+
